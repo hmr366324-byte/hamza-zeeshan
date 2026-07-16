@@ -967,3 +967,56 @@ font-size:24px;
 }
 
 }
+@media(max-width:576px){
+
+.hero{
+padding:120px 20px;
+}
+
+section{
+padding:90px 20px;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.btn-primary,
+.btn-secondary{
+display:block;
+width:100%;
+text-align:center;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+.navbar{
+padding:15px 20px;
+}
+
+.logo{
+font-size:24px;
+}
+
+}
+
+/* 👇 ISKE BAAD YE CODE PASTE KARO */
+
+.nav-links.active{
+    display:flex;
+    position:absolute;
+    top:80px;
+    left:20px;
+    right:20px;
+    flex-direction:column;
+    background:#0f172a;
+    padding:20px;
+    border-radius:15px;
+    gap:20px;
+}
